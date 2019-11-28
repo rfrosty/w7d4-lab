@@ -1,5 +1,7 @@
 <template lang="html">
-
+<div class="">
+<span>"I am a list component"</span>
+</div>
 </template>
 
 <script>
