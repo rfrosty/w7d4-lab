@@ -2,13 +2,13 @@
 <div class="">
   <p>Hello World</p>
   <span>{{ data }}</span>
-  <!-- <energy-list></energy-list> -->
+  <energy-list></energy-list>
 </div>
 </template>
 
 <script>
 
-// import EnergyList from './components/energy'
+import EnergyList from './components/EnergyList.vue'
 
 export default {
   name: 'app',
@@ -30,6 +30,10 @@ export default {
     .then(data => this.data = data)
 
   },
+
+  components: {
+    "energy-list": EnergyList
+  }
 
 }
 </script>

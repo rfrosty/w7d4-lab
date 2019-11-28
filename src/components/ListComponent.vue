@@ -1,14 +1,10 @@
 <template lang="html">
-  <div class="">
-    <ul>
-      <span>"I am an energy list"</span>
-    </ul>
-  </div>
+
 </template>
 
 <script>
 export default {
-  name: 'energy-list'
+  name: 'list-component'
 }
 </script>
 
